@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <!--
  * See the NOTICE file distributed with this work for additional
@@ -64,9 +64,10 @@ teams.meeting.table._actions=Aktionen
 teams.meeting.create.title=Besprechungsaufzeichnung ''{0}
 teams.meeting.pageName=Besprechungsaufzeichnungen
 teams.meeting.title=Besprechungsaufzeichnung für {0}
+teams.meeting.padLink=Kollaborations-Pad
 Teams.Code.MeetingClass_date=Datum
 Teams.Code.MeetingClass_agenda=Tagesordnung
-Teams.Code.MeetingClass_record=Aufzeichnung
+Teams.Code.MeetingClass_content=Aufzeichnung
 Teams.Code.MeetingClass_participants=Teilnehmer
 Teams.Code.MeetingClass_absents=Abwesend
 teams.shift.scheduler.event.pageName=Dienst-{0}-{1}
