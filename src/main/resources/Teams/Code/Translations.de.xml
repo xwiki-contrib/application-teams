@@ -57,6 +57,7 @@ Teams.Code.TeamClass_job=Job
 Teams.Code.TeamClass_need=Bedürfnisse
 Teams.Code.TeamClass_shiftUsers=Schichtmitglieder
 Teams.Code.TeamClass_shiftCalendar=Kalender
+Teams.Code.TeamClass_shiftCycles=Geplante Zyklen
 ### Missing: teams.meeting.table.empty=
 teams.meeting.table.doc.name=Besprechungsaufzeichnung
 teams.meeting.table.date=Datum
