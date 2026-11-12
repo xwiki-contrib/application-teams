@@ -289,7 +289,10 @@
             message = services.mailsender.createMessage(teamMail, teamMail, mailSubject)
             message.addPart('text/plain; charset="UTF-8"', mailContent)
 
-            services.mailsender.send(message)
+            // The "database" mail listener deletes the serialized mail from the permanent directory once it's sent,
+            // keeps it for resending when the sending fails, and makes the mail visible in the Mail Sending Status
+            // administration
+            services.mailsender.send([message], 'database')
           }
         }
       }
